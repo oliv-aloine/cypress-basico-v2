@@ -312,7 +312,7 @@ describe('Central de Atendimento ao Cliente TAT', function () {
     })
 
     //Desafio Aula 12
-    it.only('encontre o gato', function () {
+    it('encontre o gato', function () {
 
         cy.get('#cat')
             .invoke('show')
